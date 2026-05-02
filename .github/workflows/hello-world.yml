@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
-      -name: my-name
-        run: echo "Muralisuravarapu"
+          run: |
+          echo "Hello World!"
+          echo "My Name is Muralisuravarapu"
